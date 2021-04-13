@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>百度一下</title>
+ <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+ <script src="../js/jquery.cookie.js" type="text/javascript"></script>
+</head>
+<body>
+    <style> 
+        .button{
+            margin-right: 30px;
+            background: none;
+            border-style: none;
+            font-size: 20px;
+            border-radius: 4px;
+            height: 30px;
+            width: 70px;
+        }
+        .center{
+            text-align:center;
+            float:initial;
+        } 
+        .btn {
+            position:relative;
+            width: 150px;
+            height: 60px;
+            color: #fff;
+            font-size: 20px;
+            letter-spacing: 1px;
+            background: #0d63e6;
+            border-bottom: 0px;
+            outline: medium;
+        }
+        .search{
+            padding:0px;
+            height: 60px;
+            width: 800px;
+            border-radius: 6px;
+            border-color: rgb(80, 85, 99);
+        }
+        .link{
+            font-size: 20px;
+            text-align: justify;
+            margin-right: 30px;
+        }
+    </style> 
+    <div id="u1" style="float: left;">
+        <a class="link" href="http://news.baidu.com" name="tj_trnews">新闻</a>
+        <a class="link" href="https://www.hao123.com" name="tj_trhao123">hao123</a>
+        <a class="link" href="http://map.baidu.com" name="tj_trmap">地图</a>
+        <a class="link" href="http://v.baidu.com" name="tj_trvideo">视频</a>
+        <a class="link" href="http://tieba.baidu.com" name="tj_trtieba">贴吧</a>
+    </div>
+    <div style="float: right;">
+        <button class="button">设置</button>
+        <button class="button" style="background-color: #0d63e6;color: #fff;" id = "login">登录</button>  
+    </div>
+    <div class="center">
+        <img src="http://docs.ebdoor.com/image/company/283/2836590_intro1.jpg" height="300" width="550" alt="稍等一下，马上回来" style="vertical-align: bottom;">
+        <form target="_blank" action="search/search.html ">
+           <input type="search" placeholder="请先输入关键字：" class="search">         
+           <input type="submit" value="百度一下" class="btn">
+        </form>              
+    </div>
+    <script>
+        document.getElementById("login").addEventListener("click", click);
+        function click (){
+            window.location.href ='login/login.html';
+        }
+    </script>
+</body>

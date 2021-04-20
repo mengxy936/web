@@ -1,167 +1,193 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
 div.banner {
-    display: inline-block;
-    width: 700px;
-    height: 420px;
-    padding: 7px;
-    position: relative;
-    border: solid 1px gray;
+  display: inline-block;
+  width: 700px;
+  height: 420px;
+  padding: 7px;
+  position: relative;
+  border: solid 1px gray;
 }
 
 .screen {
-    width: 700px;
-    height: 420px;
-    overflow: hidden;
-    position: relative;
+  width: 700px;
+  height: 420px;
+  overflow: hidden;
+  position: relative;
 }
 
 .screen ul {
-    position: absolute;
-    top: 0px;
-    width: 3500px;
+  position: absolute;
+  top: 0px;
+  width: 3500px;
 }
 
 .screen li {
-    width: 700px;
-    height: 420px;
-    float: left;
-    overflow: hidden;
+  width: 700px;
+  height: 420px;
+  float: left;
+  overflow: hidden;
 }
 
-
-img {
-    height: 100%;
-    width: 100%;
-    z-index: 0;
+.screen img {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
 }
 
 .leftArr {
-    cursor: pointer;
-    width: 30px;
-    height: 50px;
-    position: absolute;
-    top: 150px;
-    left: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    line-height: 50px;
+  cursor: pointer;
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
 }
 
 .rightArr {
-    cursor: pointer;
-    width: 30px;
-    height: 50px;
-    position: absolute;
-    top: 150px;
-    right: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    line-height: 50px;
+  cursor: pointer;
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
 }
 
 .icon-dot {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-color: #333;
-    background-clip: content-box;
-    padding: 8px;
-    border-radius: 50%;
-    border: 8px solid #333;
-    z-index: 1000;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  background-clip: content-box;
+  padding: 8px;
+  border-radius: 50%;
+  border: 8px solid #333;
+  z-index: 1000;
 }
 
 .dot {
-    cursor: pointer;
-    position: absolute;
-    width: 93px;
-    height: 30px;
-    bottom: 7px;
-    right: 300px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+  width: 93px;
+  height: 30px;
+  bottom: 7px;
+  right: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
 }
 
 .dot ul li {
-    list-style: none;
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    background-color: #fff;
-    float: left;
-    margin: 7px 8px;
+  list-style: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #fff;
+  float: left;
+  margin: 7px 8px;
 }
 
 .dot ul li.active {
-    transition: 0.5s;
-    background-color: #fff;
-    background-clip: content-box;
-    padding: 2px;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    border: 2px solid #Fff;
-    margin: 5px 6px;
+  transition: 0.5s;
+  background-color: #fff;
+  background-clip: content-box;
+  padding: 2px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 5px 6px;
 }
 
-
-.nav-left{
-    margin-left: 180px;
-    display: inline-block;
-    width: 190px;
-    height: 450px;            
-    padding: 10px 0;
-    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\\5b8b体", sans-serif;
-    background-color: #ffffff;
-    margin-top: 250px;
+.nav-left {
+  margin-left: 180px;
+  display: inline-block;
+  width: 190px;
+  height: 450px;
+  padding: 10px 0;
+  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\\5b8b体",
+    sans-serif;
+  background-color: #ffffff;
+  margin-top: 250px;
 }
-.nav-left li{                 
-    height: 24px;
-    padding-left: 18px;
-    line-height: 25px;   
-    list-style:none;        
+.nav-left li {
+  height: 24px;
+  padding-left: 18px;
+  line-height: 25px;
+  list-style: none;
 }
-.nav-left li:hover{
-    background-color:#d9d9d9;
+.nav-left li:hover {
+  background-color: #f7e0e0;
 }
-.nav-left li a{
-    color: #333333;
-    font-size: 14px;
-    text-decoration: none;  
+.nav-left li a {
+  color: #333333;
+  font-size: 14px;
+  text-decoration: none;
 }
-.nav-left li span{
-    font-size: 12px;
-    padding-left: 2px;
-} 
-.nav-left li a:hover{
-    color: #c81623;
-} 
-
-.details{
-    background-color: #c81623;
-    display:none;
-    width: 700px;
-    height: 420px;
-    position: absolute;
-    z-index: 2000;
-    margin-top: 18px;
-    margin-left: 9px;
-    margin-top: 268px;
+.nav-left li span {
+  font-size: 12px;
+  padding-left: 2px;
+}
+.nav-left li a:hover {
+  color: #c81623;
 }
 
-.show{
-    position: absolute;
-    top: 200px;
-    bottom: 0px;
-    left: 300px;
-    width: 1300px;
-    background-color: rgb(248, 249, 250);
-    border-radius: 20px;
+.details {
+  background-color: #c81623;
+  display: none;
+  width: 700px;
+  height: 420px;
+  position: absolute;
+  z-index: 2000;
+  margin-top: 18px;
+  margin-left: 9px;
+  margin-top: 268px;
+}
+
+.show {
+  position: absolute;
+  top: 150px;
+  bottom: 0px;
+  left: 300px;
+  width: 1300px;
+  background-color: rgb(248, 249, 250);
+  border-radius: 20px;
+}
+.box {
+  margin-top: 10px;
+}
+.input {
+  width: 650px;
+  height: 45px;
+  border-radius: 50px;
+  padding-left: 30px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.taobao_image {
+  /* margin-top: 10px; */
+  position: relative;
+  top: 40px;
+  margin-right: 80px;
+  margin-left: 350px;
+}
+
+.search{
+    position: relative;
+    height: 45px;
+    width: 60;  
+    background-color: #fa4f5b;
+    right: 50px;
 }

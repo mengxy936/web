@@ -111,28 +111,24 @@ div.banner {
 }
 
 .nav-left {
-  margin-left: 180px;
+  position: relative;
   display: inline-block;
-  width: 190px;
+  width: 17%;
   height: 450px;
   padding: 10px 0;
-  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\\5b8b体",
-    sans-serif;
-  background-color: #ffffff;
-  margin-top: 250px;
 }
 .nav-left li {
-  height: 24px;
-  padding-left: 18px;
-  line-height: 25px;
+  padding-left: 25px;
+  line-height: 35px;
   list-style: none;
+  letter-spacing: 2px;
 }
 .nav-left li:hover {
   background-color: #f7e0e0;
 }
 .nav-left li a {
   color: #333333;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
 }
 .nav-left li span {
@@ -187,7 +183,39 @@ div.banner {
 .search{
     position: relative;
     height: 45px;
-    width: 60;  
+    width: 60px;  
     background-color: #fa4f5b;
     right: 50px;
+}
+.themeTitle{
+  text-align: center;
+  color: #c81623;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.middle{
+  display: inline-block;
+  width: 82%;
+}
+
+.middleTitle li{  
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.middleTitle li a {
+  color: #333333;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.middleTitle ul{
+  display: inline-block;
+}
+
+.middleTitle{
+  position: relative;
+  top: -130px;
+  width: 100%;
 }

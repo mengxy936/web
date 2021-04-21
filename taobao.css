@@ -4,20 +4,21 @@
   border: 0px;
 }
 
-div.banner {
+.banner {
   display: inline-block;
-  width: 700px;
-  height: 420px;
+  width: 750px;
+  height: 540px;
   padding: 7px;
+  top: -30px;
   position: relative;
-  border: solid 1px gray;
 }
 
 .screen {
-  width: 700px;
-  height: 420px;
+  width: 500px;
+  height: 320px;
   overflow: hidden;
   position: relative;
+  border-radius: 20px;
 }
 
 .screen ul {
@@ -27,8 +28,8 @@ div.banner {
 }
 
 .screen li {
-  width: 700px;
-  height: 420px;
+  width: 650px;
+  height: 320px;
   float: left;
   overflow: hidden;
 }
@@ -45,7 +46,6 @@ div.banner {
   height: 50px;
   position: absolute;
   top: 150px;
-  left: 20px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   text-align: center;
@@ -58,40 +58,26 @@ div.banner {
   height: 50px;
   position: absolute;
   top: 150px;
-  right: 20px;
+  right: 0px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   text-align: center;
   line-height: 50px;
 }
 
-.icon-dot {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-color: #333;
-  background-clip: content-box;
-  padding: 8px;
-  border-radius: 50%;
-  border: 8px solid #333;
-  z-index: 1000;
-}
-
 .dot {
   cursor: pointer;
   position: absolute;
   width: 93px;
-  height: 30px;
+  height: 20px;
   bottom: 7px;
-  right: 300px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
+  right: 210px;
 }
 
 .dot ul li {
   list-style: none;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-radius: 100%;
   background-color: #fff;
   float: left;
@@ -103,8 +89,8 @@ div.banner {
   background-color: #fff;
   background-clip: content-box;
   padding: 2px;
-  width: 11px;
-  height: 11px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   border: 2px solid #fff;
   margin: 5px 6px;
@@ -215,7 +201,48 @@ div.banner {
 }
 
 .middleTitle{
+  top: -30px;
   position: relative;
-  top: -130px;
   width: 100%;
 }
+div .login{
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+.leftBottom{
+  height: 200px;
+  width: 500px;
+  /* position: relative;
+  top: 30px; */
+  border-radius: 20px;
+}
+
+.leftBottom img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.rightTop{
+  height: 300px;
+  width: 200px;
+  /* position: relative;
+  top: 30px;
+  left: 400px; */
+  border-radius: 20px;
+  /* display: inline-block; */
+}
+
+.rightTop img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+/* 
+.top{
+  height: 320px;
+  width: 750;
+  background-color: #c81623;
+} */
